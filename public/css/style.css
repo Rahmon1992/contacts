@@ -1,0 +1,98 @@
+.main_page{
+	background-color:#eee;
+	padding:0;
+	margin:0;
+	font-family: calibri;
+
+}
+
+#main_block{
+	position:relative; 
+	margin:0 auto; 
+	width:900px; 
+	background-color:#fff; 
+	min-height:630px; 
+	box-shadow:5px; 
+	padding-top:20px;
+	box-shadow: 1px 1px 5px 0px;
+	overflow: auto;
+}
+
+#main_block h1 {
+	text-align:center;
+}
+
+#main_block h2 {
+	text-align:center;
+}
+
+
+#task_input{
+	display:block; 
+	margin:0 auto; 
+	padding:5px; 
+	font-size:15px; 
+	width:300px; 
+	border-radius:5px; 
+	
+}
+
+#tasks_div span{
+    font-size: 22px;
+    border:0px solid #000; 
+    width:100%; 
+    margin:10px; 
+}
+
+#tasks_div {
+	cursor: pointer;
+	padding-left: 20px;	
+	padding-right: 10px;
+}
+
+#tasks_div:hover {
+	background-color: #eee;
+}
+
+
+#tasks_div:hover > #del_btn{
+ 	display: block;
+}
+	
+.btn{
+	float: right;
+	margin-right: 20px;
+}
+#tasksToShow{
+	position:absolute; 
+	margin:0 auto; 
+	float:center;  
+	width:95%; 
+	border-radius:5px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+#del_btn{
+	position:relative; 
+	float:right;
+	font-size: 20px;
+	color: red;
+	width:20px; height:20px; 
+	text-align:center; 
+	cursor:pointer;
+	display: none;
+}
+
+
+span.done-true{
+    color:gray;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+span[contentEditable="true"]{
+    background: white;
+    padding: 3px;
+}
+ 
